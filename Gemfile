@@ -1,6 +1,8 @@
 source :rubygems
 
-group :test do
+gem 'rake'
+
+#group :test do
   gem "rspec"
   #gem "capybara"
   # gem "mechanize"
@@ -13,4 +15,4 @@ group :test do
 
   # Beautifying
   gem 'awesome_print'
-end
+#end
